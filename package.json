@@ -1,0 +1,20 @@
+{
+  "name": "testing-with-jest",
+  "version": "1.0.0",
+  "description": "Inl 5 lab",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest tests"
+  },
+  "author": "Gustav HL",
+  "license": "MIT",
+  "dependencies": {
+    "underscore": "^1.13.8"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^14.0.0",
+    "jest": "^30.4.2",
+    "webpack": "^5.106.2",
+    "webpack-cli": "^7.0.2"
+  }
+}

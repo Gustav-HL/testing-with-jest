@@ -51,6 +51,6 @@ test('Display the name of the last pushed item', async () => {
     await alert.accept();
 
     let displayedText = await display.getText();
-    expect(displayedText).toBe("0Glongo");
+    expect(displayedText).toBe("Glongo");
 });
 // Ser ut som den funkar men testningen vill verkligen inte

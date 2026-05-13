@@ -17,3 +17,13 @@ test('peek on stack with two or more elements returns the top element', () => {
     expect(stack.peek()).toBeDefined();
     expect(stack.peek()).toBe(42);
 });
+
+test('popping more times than elements pushed should return undefined', () => {
+    while(stack.size() > 0) { stack.pop(); }
+
+    stack.push("Glen"); 
+    stack.pop(); 
+    
+    let emptyPop = stack.pop(); 
+    expect(emptyPop).toBeUndefined(Glen);
+});

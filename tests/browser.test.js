@@ -16,7 +16,7 @@ beforeAll(async () => {
     options.addArguments("--headless"); // Kör utan fönster
 
     driver = await new Builder()
-        .forBrowser('firefox')
+        .forBrowser('chrome')
         .setFirefoxOptions(options)
         .build();
     await driver.get(fileUnderTest);

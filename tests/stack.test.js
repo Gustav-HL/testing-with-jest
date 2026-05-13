@@ -25,5 +25,5 @@ test('popping more times than elements pushed should return undefined', () => {
     stack.pop(); 
     
     let emptyPop = stack.pop(); 
-    expect(emptyPop).toBeUndefined(Glen);
+    expect(emptyPop).toBeUndefined();
 });
